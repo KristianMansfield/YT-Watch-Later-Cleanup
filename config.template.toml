@@ -1,0 +1,14 @@
+# Copy this file to config.toml and edit it. config.toml is ignored by git.
+
+# Browser you're logged in to YouTube with: chrome, firefox, safari, brave, edge, chromium, opera, vivaldi
+browser = "chrome"
+# profile = "Profile 1"   # only if you don't use the browser's default profile
+
+# Remove every video from these creators. Use channel name, @handle, or channel ID (case-insensitive).
+creators = [
+    # "Some Channel",
+    # "@somehandle",
+]
+
+# Remove videos longer than this many minutes. Comment out to disable.
+max_minutes = 60
